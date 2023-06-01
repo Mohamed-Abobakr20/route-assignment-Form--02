@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <form>
+        <fieldset style="background-color: #F7C04A;">
+            <legend style="background-color: #E3CCAE;">Personal Data</legend>
+
+            <br>
+
+            <fieldset style="background-color: #B8621B;">
+                <legend style="background-color: #E3CCAE; padding: 30px 0;">Your Name</legend>
+
+                <br>
+                <br>
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="firstName">first name</label>
+                            </td>
+                            <td></td>
+                            <td>
+                                :
+                            </td>
+                            <td></td>
+                            <td>
+                                <input type="text" name="first-name" id="firstName" autofocus placeholder="ex: mohamed">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="secondName">second name</label>
+                            </td>
+                            <td></td>
+                            <td>
+                                :
+                            </td>
+                            <td></td>
+                            <td>
+                                <input type="text" name="second-name" id="secondName" placeholder="ex: abobakr">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="phoneNumber">your phone</label>
+                        </td>
+                        <td></td>
+                        <td>
+                            :
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="tel" name="phone-number" id="phoneNumber">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td></td>
+                        <td>
+                            :
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">password</label>
+                        </td>
+                        <td></td>
+                        <td>
+                            :
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="password" name="password" id="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="rePassword">re-password</label>
+                        </td>
+                        <td></td>
+                        <td>
+                            :
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="password" name="re-password" id="rePassword">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <br>
+
+            <input type="radio" name="gender" id="genderMale" value="male" checked>
+            <label for="genderMale">Male</label>
+            <br>
+            <input type="radio" name="gender" id="genderFemale" value="female">
+            <label for="genderFemale">Female</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="educationState" id="studentState" value="student" checked>
+            <label for="studentState">Student</label>
+            <br>
+            <input type="checkbox" name="educationState" id="graduatedState" value="graduated">
+            <label for="graduatedState">Graduated</label>
+
+            <br>
+            <br>
+            <br>
+
+            <select name="university" id="university">
+                <optgroup label="Egypt">
+                    <option value="zagazig university">Zagazig uinversity</option>
+                </optgroup>
+                <optgroup label="Online">
+                    <option value="UoPeople">University of the People</option>
+                    <option value="University of Florida">University of Florida</option>
+                </optgroup>
+                <optgroup label="America" disabled>
+                    <option value="Princeton University">Princeton University</option>
+                    <option value="Harvard University">Harvard University</option>
+                    <option value="Stanford University">Stanford University</option>
+                </optgroup>
+            </select>
+
+            <br>
+            <br>
+
+            <button style="padding: 0;"><img src=" images/submit-image.jpeg " alt="submit image " width="80 "></button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
